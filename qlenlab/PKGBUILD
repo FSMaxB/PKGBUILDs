@@ -1,0 +1,29 @@
+# Maintainer: Max Bruckner <Max.W8chtel@googlemail.com>
+pkgname=qlenlab
+pkgver=git
+pkgrel=3
+pkgdesc="Freie Alternative zu LENLab fÃ¼r das KIT EI-Board."
+arch=('i686' 'x86_64' 'arm')
+url="https://gitorious.org/qlenlab"
+license=('GPL3')
+groups=('science')
+depends=('qwt>=6')
+makedepends=('git')
+
+build() {
+    cd "$srcdir"
+    rm -rf qlenlab
+    git clone https://git.gitorious.org/qlenlab/master.git qlenlab
+    cd qlenlab
+    git checkout 6a9709
+    qmake -qt4
+    make
+}
+
+package() {
+    cd "$srcdir/qlenlab"
+    mkdir -p "$pkgdir/usr/bin"
+    mkdir -p "$pkgdir/usr/share/applications"
+    cp qlenlab "$pkgdir/usr/bin/"
+    cp qlenlab.desktop "$pkgdir/usr/share/applications/"
+}
