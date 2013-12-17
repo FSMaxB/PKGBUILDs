@@ -1,0 +1,18 @@
+# Maintainer: Max Bruckner
+pkgname=update-grub
+pkgver=0.0.1
+pkgrel=3
+pkgdesc="Simple wrapper creating new GRUB2 configuration."
+arch=('any')
+url='http://packages.ubuntu.com/precise/grub2-common'
+license=('GPL2')
+depends=('grub')
+
+package() {
+  mkdir $pkgdir/usr
+  mkdir $pkgdir/usr/bin
+  echo '#!/bin/sh
+set -e
+exec grub-mkconfig -o /boot/grub/grub.cfg "$@"' > $pkgdir/usr/bin/update-grub
+  chmod +x $pkgdir/usr/bin/update-grub
+}
