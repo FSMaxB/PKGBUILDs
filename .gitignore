@@ -1,5 +1,6 @@
 */pkg/
 */src/
+tmp/
 *.tar.xz
 *.tar.gz
 *.tar.bz
