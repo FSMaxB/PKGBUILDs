@@ -1,7 +1,7 @@
 # Maintainer: Max Bruckner
 pkgname=gentoo-mirrorselect
-pkgver=2.2.1
-pkgrel=1
+pkgver=2.2.0.1
+pkgrel=2
 pkgdesc="Script for selecting Gentoo mirrors."
 arch=('i686' 'x86_64' )
 url="http://sources.gentoo.org/cgi-bin/viewvc.cgi/gentoo-x86/app-portage/mirrorselect/mirrorselect-9999.ebuild"
@@ -14,7 +14,7 @@ build() {
     rm -rf mirrorselect
     git clone git://git.overlays.gentoo.org/proj/mirrorselect.git mirrorselect
     cd mirrorselect
-    git checkout $pkgver
+    git checkout 2.2.0.1
     ./setup.py build
 }
 
