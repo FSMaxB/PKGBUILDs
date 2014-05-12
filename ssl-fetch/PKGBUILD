@@ -1,7 +1,7 @@
 # Maintainer: Max Bruckner
 pkgname=ssl-fetch
 pkgver=0.1
-pkgrel=1
+pkgrel=2
 pkgdesc="python-ssl-fetch, a dependency of gentoo-mirrorselect."
 arch=('any' )
 url="https://github.com/dol-sen/ssl-fetch"
@@ -14,7 +14,7 @@ build() {
     rm -rf ssl-fetch
     git clone https://github.com/dol-sen/ssl-fetch
     cd ssl-fetch
-    git checkout 739415
+    git checkout $pkgver
     sed -i -e "s/Git/$pkgver/g" sslfetch/__init__.py   #Set right version number
     python setup.py build
 }
