@@ -1,12 +1,12 @@
 # Maintainer: Max Bruckner
 pkgname=gentoo-mirrorselect
-pkgver=2.2.0.1
-pkgrel=3
+pkgver=2.2.1
+pkgrel=1
 pkgdesc="Script for selecting Gentoo mirrors."
 arch=( 'any' )
 url="http://sources.gentoo.org/cgi-bin/viewvc.cgi/gentoo-x86/app-portage/mirrorselect/mirrorselect-9999.ebuild"
 license=('GPL2')
-depends=('python' 'netselect' 'dialog' )
+depends=('python' 'netselect' 'dialog' 'ssl-fetch' )
 makedepends=('git')
 
 build() {
