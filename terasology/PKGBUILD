@@ -1,13 +1,12 @@
 pkgname=terasology
 pkgver=38   
-pkgrel=2
+pkgrel=3
 pkgdesc="Yet another high resolution game with blocks like Minecraft!"
 arch=('x86_64' 'i686')
 license=('Apache')
 url="http://blog.movingblocks.net/blockmania"
 options=('!strip')
 depends=('java-runtime' 'xorg-server-utils' 'openal')
-conflicts=('terasology')
 source=( 'terasology' 'terasology.desktop' "http://jenkins.movingblocks.net/job/TerasologyStable/${pkgver}/artifact/build/distributions/Terasology.zip" )
 sha512sums=('b85d79b44f327a8645dff1f9f0e4b8832fd8cb9543c828da80ca464be5d55d68a329ba6a5833760ab65dd5b08f14e3a8a62a6e925dd436c04f31f929d0433df5'
             '674d34f54bf7f45f5a83b4dd377475fd323e28f9c98ff93cd64c6f741083f3672e798e3069e92273308a440454f3fd1346b934540307b91f42dce82165a6b035'
@@ -23,5 +22,5 @@ package() {
     rm run_macosx.command Terasology.exe
     rm -r natives/{macosx,windows}
 
-    cp -ra "$srcdir" "$pkgdir/usr/share/Terasology"
+    cp -ra "$srcdir" "$pkgdir/usr/share/terasology"
 }
