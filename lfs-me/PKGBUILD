@@ -1,6 +1,6 @@
 # Maintainer: Max Bruckner
 pkgname=lfs-me
-pkgver=3.0.0
+pkgver=3.0.1
 pkgrel=1
 pkgdesc="A simple fakeroot based package manager for LFS inspired by Archlinux."
 arch=( 'any' )
@@ -8,7 +8,7 @@ url="https://github.com/FSMaxB/lfs-me"
 license=('GPL3')
 depends=( 'rsync' )
 source=( "https://github.com/FSMaxB/${pkgname}/archive/${pkgver}.tar.gz" )
-sha512sums=('5603dcd6e81f3604b51a6ae0664ee23708258b7493449d148fb49950c9e6d8127352c9f497902e0e929ed9cddd5832e7bed84b510dc53943ef0753cf8b3a0a4a')
+sha512sums=('83d93a89dd6913f391f98667c9c888aa9b8289f1e8c7465e50df05e5b02e9cd3591cb5769210cc686f66fec6c5681052b8af788b4eca076aa919df5ae42bd96c')
 
 package() {
     cd "${srcdir}/${pkgname}-${pkgver}"
