@@ -1,5 +1,5 @@
 pkgname=terasology
-pkgver=47
+pkgver=48
 pkgrel=1
 pkgdesc="Yet another high resolution game with blocks like Minecraft!"
 arch=('x86_64' 'i686')
@@ -14,7 +14,7 @@ source=(
 	"http://jenkins.movingblocks.net/job/TerasologyStable/${pkgver}/artifact/build/distributions/Terasology.zip")
 sha512sums=('f94c1ac3d85e4fb91cc47056eeec3648d02be9090252401acb740af8c0580623c7ee57470d9e7317d6b577d613e317b5c16ec014f232ec68bc755e0eba7a975e'
             '737953ab10027100b6bd03ca60a3f1cd4fff503c4c5a1689b3e12ef8df66a3e3347c99d498e48dccc3be8d00e9e37fcab56d5c97bbb81dd310ce757979aa0276'
-            '3a7cfe9abda38382dac72813e614e2edc1934cc0c5cc5de390276490f573ea860a3440ee0064524c036cb9f0debaff43ad06a47a58dc65c4f001f69bf16d5669')
+            'bf21a22afe9b08d5422f15f827bdcad12a0e883e670fc25c31594f207835967981d90b91699645506afaf0b62a25d490b32247fb17dce948021f2a2646f60172')
 
 package() {
 	cd "$srcdir"
@@ -25,7 +25,7 @@ package() {
     rm "${srcdir}/${pkgname}" "${srcdir}/${pkgname}.desktop" "${srcdir}/Terasology.zip"
 
 	#extract and install icons
-	unzip -u libs/engine*.jar "org/terasology/icons/*"
+	unzip -u engine-0.48.0-SNAPSHOT.jar "org/terasology/icons/*"
 	pushd org/terasology/icons
 	for icon in *
 	do
