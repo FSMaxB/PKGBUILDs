@@ -6,7 +6,7 @@ if [[ ! $# -eq "1" ]]; then
 	exit 1
 fi
 
-rm -v Terasology.zip
+rm -v Terasology.zip{,.part}
 rm -rv src/
 echo "Setting version to $1"
 sed -i "s/pkgver=.*/pkgver=$1/g" PKGBUILD
