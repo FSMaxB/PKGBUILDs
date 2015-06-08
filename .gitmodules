@@ -1,0 +1,30 @@
+[submodule "AUR/easyhg"]
+	path = AUR/easyhg
+	url = https://aur4.archlinux.org/easyhg.git
+[submodule "AUR/gentoo-mirrorselect"]
+	path = AUR/gentoo-mirrorselect
+	url = https://aur4.archlinux.org/gentoo-mirrorselect.git
+[submodule "AUR/lampe"]
+	path = AUR/lampe
+	url = https://aur4.archlinux.org/lampe.git
+[submodule "AUR/lfs-me"]
+	path = AUR/lfs-me
+	url = https://aur4.archlinux.org/lfs-me.git
+[submodule "AUR/oggextract"]
+	path = AUR/oggextract
+	url = https://aur4.archlinux.org/oggextract.git
+[submodule "AUR/ssl-fetch"]
+	path = AUR/ssl-fetch
+	url = https://aur4.archlinux.org/ssl-fetch.git
+[submodule "AUR/supertux-old"]
+	path = AUR/supertux-old
+	url = https://aur4.archlinux.org/supertux-old.git
+[submodule "AUR/terasology"]
+	path = AUR/terasology
+	url = https://aur4.archlinux.org/terasology.git
+[submodule "AUR/terasology-devbuild"]
+	path = AUR/terasology-devbuild
+	url = https://aur4.archlinux.org/terasology-devbuild.git
+[submodule "AUR/update-grub"]
+	path = AUR/update-grub
+	url = https://aur4.archlinux.org/update-grub.git
