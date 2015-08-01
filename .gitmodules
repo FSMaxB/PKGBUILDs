@@ -28,3 +28,6 @@
 [submodule "AUR/update-grub"]
 	path = AUR/update-grub
 	url = https://aur4.archlinux.org/update-grub.git
+[submodule "AUR/qmake2cmake"]
+	path = AUR/qmake2cmake
+	url = https://aur4.archlinux.org/qmake2cmake.git/
