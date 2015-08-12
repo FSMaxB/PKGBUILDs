@@ -31,3 +31,6 @@
 [submodule "AUR/qmake2cmake"]
 	path = AUR/qmake2cmake
 	url = https://aur4.archlinux.org/qmake2cmake.git/
+[submodule "AUR/mecab"]
+	path = AUR/mecab
+	url = https://aur.archlinux.org/mecab.git/
