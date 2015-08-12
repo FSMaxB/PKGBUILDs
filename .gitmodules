@@ -34,3 +34,6 @@
 [submodule "AUR/mecab"]
 	path = AUR/mecab
 	url = https://aur.archlinux.org/mecab.git/
+[submodule "AUR/mecab-ipadic"]
+	path = AUR/mecab-ipadic
+	url = https://aur.archlinux.org/mecab-ipadic.git
