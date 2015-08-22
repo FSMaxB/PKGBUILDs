@@ -37,3 +37,6 @@
 [submodule "AUR/mecab-ipadic"]
 	path = AUR/mecab-ipadic
 	url = https://aur.archlinux.org/mecab-ipadic.git
+[submodule "AUR/json-sh"]
+	path = AUR/json-sh
+	url = https://aur.archlinux.org/json-sh.git
