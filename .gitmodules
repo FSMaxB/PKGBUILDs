@@ -40,3 +40,6 @@
 [submodule "AUR/json-sh"]
 	path = AUR/json-sh
 	url = https://aur.archlinux.org/json-sh.git
+[submodule "AUR/lampe-bash"]
+	path = AUR/lampe-bash
+	url = https://aur.archlinux.org/lampe-bash.git
