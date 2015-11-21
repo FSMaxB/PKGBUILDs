@@ -2,9 +2,9 @@
 # Contributor: Max Bruckner <max at maxbruckner dot de>
 
 pkgname=freac
-_realpkgver=20141005
+_realpkgver=20151004
 pkgver=cvs_${_realpkgver}
-pkgrel=2
+pkgrel=1
 pkgdesc="Audio converter and CD ripper with support for various popular formats and encoders."
 arch=('i686' 'x86_64')
 url="http://www.freac.org/"
@@ -17,12 +17,12 @@ source=(freac
         translator)
 source_i686=( "${pkgname}-${_realpkgver}::http://sourceforge.net/projects/bonkenc/files/snapshots/${_realpkgver}/freac-${_realpkgver}-linux.tar.gz" )
 source_x86_64=( "${pkgname}-${_realpkgver}::http://sourceforge.net/projects/bonkenc/files/snapshots/${_realpkgver}/freac-${_realpkgver}-linux-x64.tar.gz" )
-md5sums=( '1cf482f5536fe8f4df15de6bea4ead95'
-        'fe5a8d47bfe0cccbfd12666f9d61ec4f'
-        '729fd253ec04ceca75d1e6600fcf7265'
-        '9c7ee1f50408d998b07d5f784ff4d753')
-md5sums_i386=( 'cc8165ef092d403890c058fa716321e7' )
-md5sums_x86_64=( '388c64149f78f693dcc58c5e6b07447f' )
+md5sums=('1cf482f5536fe8f4df15de6bea4ead95'
+         'fe5a8d47bfe0cccbfd12666f9d61ec4f'
+         '729fd253ec04ceca75d1e6600fcf7265'
+         '9c7ee1f50408d998b07d5f784ff4d753')
+md5sums_i686=('e089b3935dcd26c7bcb41efac9f7a389')
+md5sums_x86_64=('e089b3935dcd26c7bcb41efac9f7a389')
 
 package() {
    cd $srcdir

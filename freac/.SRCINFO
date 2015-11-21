@@ -1,0 +1,26 @@
+pkgbase = freac
+	pkgdesc = Audio converter and CD ripper with support for various popular formats and encoders.
+	pkgver = cvs_20151004
+	pkgrel = 1
+	url = http://www.freac.org/
+	arch = i686
+	arch = x86_64
+	license = GPL2
+	depends = alsa-lib
+	depends = gtk3
+	depends = libxmu
+	source = freac
+	source = freac.desktop
+	source = freaccmd
+	source = translator
+	md5sums = 1cf482f5536fe8f4df15de6bea4ead95
+	md5sums = fe5a8d47bfe0cccbfd12666f9d61ec4f
+	md5sums = 729fd253ec04ceca75d1e6600fcf7265
+	md5sums = 9c7ee1f50408d998b07d5f784ff4d753
+	source_i686 = freac-20151004::http://sourceforge.net/projects/bonkenc/files/snapshots/20151004/freac-20151004-linux.tar.gz
+	md5sums_i686 = e089b3935dcd26c7bcb41efac9f7a389
+	source_x86_64 = freac-20151004::http://sourceforge.net/projects/bonkenc/files/snapshots/20151004/freac-20151004-linux-x64.tar.gz
+	md5sums_x86_64 = e089b3935dcd26c7bcb41efac9f7a389
+
+pkgname = freac
+
