@@ -43,3 +43,6 @@
 [submodule "AUR/lampe-bash"]
 	path = AUR/lampe-bash
 	url = https://aur.archlinux.org/lampe-bash.git
+[submodule "AUR/freac"]
+	path = AUR/freac
+	url = https://aur.archlinux.org/freac.git
