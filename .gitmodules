@@ -46,3 +46,6 @@
 [submodule "AUR/freac"]
 	path = AUR/freac
 	url = https://aur.archlinux.org/freac.git
+[submodule "AUR/icestorm-git"]
+	path = AUR/icestorm-git
+	url = ssh://aur@aur.archlinux.org/icestorm-git.git
