@@ -46,12 +46,6 @@
 [submodule "AUR/freac"]
 	path = AUR/freac
 	url = https://aur.archlinux.org/freac.git
-[submodule "AUR/icestorm-git"]
-	path = AUR/icestorm-git
-	url = ssh://aur@aur.archlinux.org/icestorm-git.git
-[submodule "AUR/--force"]
-	path = AUR/--force
-	url = ssh://aur@aur.archlinux.org/dinotrace.git
 [submodule "AUR/dinotrace"]
 	path = AUR/dinotrace
 	url = https://aur.archlinux.org/dinotrace.git
