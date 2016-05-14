@@ -49,3 +49,6 @@
 [submodule "AUR/dinotrace"]
 	path = AUR/dinotrace
 	url = https://aur.archlinux.org/dinotrace.git
+[submodule "AUR/gtk-vector-screenshot"]
+	path = AUR/gtk-vector-screenshot
+	url = https://aur.archlinux.org/gtk-vector-screenshot.git
