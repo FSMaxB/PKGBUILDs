@@ -52,3 +52,6 @@
 [submodule "AUR/gtk-vector-screenshot"]
 	path = AUR/gtk-vector-screenshot
 	url = https://aur.archlinux.org/gtk-vector-screenshot.git
+[submodule "AUR/cjson"]
+	path = AUR/cjson
+	url = https://aur.archlinux.org/cjson.git
