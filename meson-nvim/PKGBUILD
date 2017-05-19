@@ -1,0 +1,16 @@
+# Maintainer: Max Bruckner <max at maxbruckner dot de>
+pkgname=meson-nvim
+pkgver=0.40.1
+pkgrel=1
+pkgdesc="Neovim syntax highlighting for meson build files"
+arch=('any')
+url="https://mesonbuild.com"
+license=('Apache2')
+depends=('meson=0.40.1')
+
+package() {
+	mkdir -p "$pkgdir/usr/share/nvim/runtime"/{ftdetect,indent,syntax}
+	ln -s "/usr/share/vim/vimfiles/ftdetect/meson.vim" "$pkgdir/usr/share/nvim/runtime/ftdetect/"
+	ln -s "/usr/share/vim/vimfiles/indent/meson.vim" "$pkgdir/usr/share/nvim/runtime/indent/"
+	ln -s "/usr/share/vim/vimfiles/syntax/meson.vim" "$pkgdir/usr/share/nvim/runtime/syntax/"
+}
