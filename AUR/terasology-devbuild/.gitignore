@@ -1,6 +1,0 @@
-pkg/
-src/
-*.tar.xz
-*.tar.gz
-*.zip
-sha256sums.txt
