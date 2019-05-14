@@ -1,0 +1,28 @@
+# Maintainer: Max Bruckner <max at maxbruckner dot de>
+pkgname=taigaio-dependencies
+pkgver=4.2.5
+pkgrel=1
+pkgdesc="Dependencies of taiga.io"
+arch=(x86_64 i686)
+url="https://taiga.io"
+license=('AGPL3')
+depends=(postgresql python-virtualenvwrapper libxml2 libxslt openssl libffi)
+optdepends=(rabbitmq redis)
+source=()
+md5sums=()
+
+prepare() {
+	true
+}
+
+build() {
+	true
+}
+
+check() {
+	true
+}
+
+package() {
+	true
+}
