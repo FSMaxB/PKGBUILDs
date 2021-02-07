@@ -5,5 +5,6 @@ tmp/
 *.tar.gz
 *.tar.bz
 *.tar.bz2
+*.tar.zst
 *.tgz
 *.zip
