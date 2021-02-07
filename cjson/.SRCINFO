@@ -1,6 +1,6 @@
 pkgbase = cjson
 	pkgdesc = Ultralightweight JSON parser in ANSI C
-	pkgver = 1.7.12
+	pkgver = 1.7.14
 	pkgrel = 1
 	url = https://github.com/DaveGamble/cJSON
 	arch = i686
@@ -9,8 +9,8 @@ pkgbase = cjson
 	arch = aarch64
 	license = MIT
 	makedepends = cmake
-	source = cjson-1.7.12.tar.gz::https://github.com/DaveGamble/cJSON/archive/v1.7.12.tar.gz
-	sha512sums = d767b7261eff3a1a50ea46cc5573f9504f5734a891ea211ad348835bfb4b80acf7f744da2d34bb1fa270cd4d44576c21bc6f52c0604b7e6ffdeb61ecb396b376
+	source = cjson-1.7.14.tar.gz::https://github.com/DaveGamble/cJSON/archive/v1.7.14.tar.gz
+	sha512sums = 8de1dedc123ed025a9cbe6764e5963eb0550f726d06a8f6bedfe05b84e852cd9c1587cd381669663073967f42be894a535ba239013f304ce544c3b15a6477c01
 
 pkgname = cjson
 
